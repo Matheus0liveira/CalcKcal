@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <title>CalcKcal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head> 
+  </head> 
+  <body>
+    
+    <div class="container">
+      <div class="logo">
+        <img src="/images/Logo.svg" alt="CalcKcal">
+      </div>
+
+      <form >
+        <div class="form-group">
+        <label for="gender">Seu sexo</label>
+        <select id="gender">
+          <option value="male">Masculino</option>
+          <option value="female">Feminino</option>
+        </select>
+        </div>
+        <div class="form-group">
+          <label for="age">Sua idade</label>
+          <input type="number" id="age" >
+        </div>
+        <div class="form-group">
+          <label for="weight">Seu Peso</label>
+          <input type="number" id="weight" >
+        </div>
+        <div class="form-group">
+          <label for="height">Sua altura</label>
+          <input type="number" id="height" >
+        </div>
+        <div class="form-group">
+          <label for="activity">Seu nível de atividade física</label>
+          <select id="activity">
+            <option value="1.2">Sedentário</option>
+            <option value="1.375">Pouca atividade</option>
+            <option value="1.55">Atividade moderada</option>
+            <option value="1.725">Atividade intensa</option>
+            <option value="1.9">Atividade muito intensa</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit">CALCULAR</button>
+        </div>
+          
+      </form>
+    </div>
+
+    <div class="container-result">
+      <div class="result">
+        
+
+      </div>
+
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
